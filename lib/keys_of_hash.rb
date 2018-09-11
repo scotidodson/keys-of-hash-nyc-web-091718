@@ -1,3 +1,5 @@
+require "pry"
+
 class Hash
   def keys_of(*arguments)
     array = []
@@ -11,3 +13,11 @@ class Hash
     return array
   end
 end
+
+hash_example = {
+  :ruby => "dog"
+  :zelda => "cat"
+}
+
+puts keys_of(hash_example)
+binding.pry
