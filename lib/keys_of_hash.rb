@@ -15,7 +15,7 @@ class Hash
 end
 
 hash_example = {
-  :ruby => "dog"
+  :ruby => "dog",
   :zelda => "cat"
 }
 
