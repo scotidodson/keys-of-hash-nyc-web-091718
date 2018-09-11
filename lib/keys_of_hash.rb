@@ -14,10 +14,3 @@ class Hash
   end
 end
 
-hash_example = {
-  :ruby => "dog",
-  :zelda => "cat"
-}
-
-puts keys_of(hash_example)
-binding.pry
